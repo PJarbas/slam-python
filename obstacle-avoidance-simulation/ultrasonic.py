@@ -8,6 +8,7 @@ class Ultrasonic:
         self.sensor_range = sensor_range
         self.map_width, self.map_height = pygame.display.get_surface().get_size()
         self.map = map
+        self.obstacle_color = (0, 0, 0)
     
     def sense_obstacles(self, x, y, heading):
         obstacles = []
@@ -30,7 +31,8 @@ class Ultrasonic:
                     color = self.map.get_at((x, y))
                     self.map.set_at((x, y), (0, 208, 255))
                     
-                    if (color[0], color[1], color[2]) == (0, 0, 0):
+                    # obstacle color is black
+                    if (color[0], color[1], color[2]) == self.obstacle_color:
                         obstacles.append([x, y])
                         break
         

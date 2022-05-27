@@ -7,12 +7,7 @@ class Graphics:
     def __init__(self, dimensions, robot_img_path, map_img_path):
         pygame.init()
         
-        self.black = (0, 0, 0)
-        self.white = (255, 255, 255)
-        self.green = (0, 255, 0)
-        self.blue = (0, 0, 255)
-        self.red = (255, 0, 0)
-        self.yelow = (255, 255, 0)
+        self.sensor_color = (127, 255, 0)
         
         # map
         self.robot = pygame.image.load(robot_img_path)
@@ -34,6 +29,6 @@ class Graphics:
     
     def draw_sensor_data(self, point_cloud):
         for point in point_cloud:
-            pygame.draw.circle(self.map, self.red, point, 3, 0)
+            pygame.draw.circle(self.map, self.sensor_color, point, 3, 0)
         
               
