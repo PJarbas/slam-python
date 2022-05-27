@@ -12,9 +12,12 @@
 
 Ensure that your **python** version is >= 3.7
 
-To run the lidar sensor simulation, type the following command:
+To run the lidar sensor simulation, type the following command in the `lidar-sensor-simulation/` directory:
 
 ```bash
-   $ python lidar-sensor-simulation/main.py
+   $ python main.py
 ```
 
+The output will be a scree where you can pass the mouse like a lidar sensor
+
+![scan](lidar-sensor-simulation/scan.jpg)

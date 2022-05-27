@@ -1,6 +1,5 @@
 from env import Buildenvironment
 from sensors import LaserSensor
-from features import FeatureDetection
 import pygame
 import math
 import random
