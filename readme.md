@@ -18,6 +18,6 @@ To run the lidar sensor simulation, type the following command in the `lidar-sen
    $ python main.py
 ```
 
-The output will be a scree where you can pass the mouse like a lidar sensor
+The output will be a screen where you can move the mouse simulating a lidar sensor
 
 ![scan](lidar-sensor-simulation/scan.jpg)
