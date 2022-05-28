@@ -43,4 +43,4 @@ The output will be a screen where you can move the mouse simulating a lidar sens
 
 ![scan](lidar-sensor-simulation/scan.jpg)
 
-
+Source: https://www.youtube.com/watch?v=pmmUi6DasoM
