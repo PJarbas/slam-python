@@ -4,7 +4,8 @@ from robot import Robot
 from graphics import Graphics
 from ultrasonic import Ultrasonic
 
-MAP_DIMENSIONS = (600, 1200)
+
+MAP_DIMENSIONS = (675, 1200)
 ROBOT_PATH = "robot-vacuum.png"
 MAP_PATH = "map.png"
 
